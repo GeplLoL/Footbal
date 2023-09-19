@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace Jalgpall
 {
     using System;
+    using System.Drawing;
 
         public class Player
         {
@@ -15,19 +16,15 @@ namespace Jalgpall
             public double Y { get; private set; }
             private double _vx, _vy;
             public Team? Team { get; set; } = null;
-
             private const double MaxSpeed = 5;
             private const double MaxKickSpeed = 25;
             private const double BallKickDistance = 10;
-
             private Random _random = new Random();
-
             public Player(string name)
             {
                 Name = name;
             }
-
-            public Player(string name, double x, double y, Team team)
+        public Player(string name, double x, double y, Team team)
             {
                 Name = name;
                 X = x;
