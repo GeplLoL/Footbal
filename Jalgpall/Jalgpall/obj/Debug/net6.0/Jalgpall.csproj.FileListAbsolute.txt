@@ -1,0 +1,5 @@
+C:\Users\ADMIN\source\repos\Jalgpall\Jalgpall\obj\Debug\net6.0\Jalgpall.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\Jalgpall\Jalgpall\obj\Debug\net6.0\Jalgpall.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\Jalgpall\Jalgpall\obj\Debug\net6.0\Jalgpall.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\Jalgpall\Jalgpall\obj\Debug\net6.0\Jalgpall.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\Jalgpall\Jalgpall\obj\Debug\net6.0\Jalgpall.csproj.CoreCompileInputs.cache
