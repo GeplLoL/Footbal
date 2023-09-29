@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -18,6 +19,7 @@ namespace Jalgpall
 
         public Ball(double x, double y, Game game)
         {
+
             _game = game;
             X = x;
             Y = y;

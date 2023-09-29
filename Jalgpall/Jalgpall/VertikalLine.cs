@@ -25,9 +25,7 @@ namespace Jalgpall
             {
                 p.Draw();
             }
-
             Console.ForegroundColor = ConsoleColor.White;
-
         }
     }
 }

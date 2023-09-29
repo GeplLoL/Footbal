@@ -28,8 +28,25 @@ namespace Jalgpall
             Ball = new Ball(Stadium.Width / 2, Stadium.Height / 2, this);
             HomeTeam.StartGame(Stadium.Width / 2, Stadium.Height);
             AwayTeam.StartGame(Stadium.Width / 2, Stadium.Height);
+            DrawBall pallC = new DrawBall(78, 24, '*');
+            Point pall = pallC.BallDraw();
+            Console.ForegroundColor = ConsoleColor.Green;
+            pall.Draw();
+            Console.ForegroundColor = ConsoleColor.White;
+            for (int i = 0; i < 6; i++)
+            {
+                DrawPlayers PlayC = new DrawPlayers(78, 24, 'A');
+                Point player = PlayC.PlayersDraw();
+                Console.ForegroundColor = ConsoleColor.Blue;
+                player.Draw();
+                Console.ForegroundColor = ConsoleColor.White;
+                DrawPlayers PlayCi = new DrawPlayers(78, 24, 'B');
+                Point playeri = PlayCi.PlayersDraw();
+                Console.ForegroundColor = ConsoleColor.Red;
+                playeri.Draw();
+                Console.ForegroundColor = ConsoleColor.White;
+            }
             Console.SetWindowSize(80, 25);
-            Point p = new Point(4, 5, '*');
             Walls walls = new Walls(80, 25);
             walls.Draw();
         }

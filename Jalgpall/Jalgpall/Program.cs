@@ -18,6 +18,7 @@ class Programm
         Ball pall = new Ball(50,50,game);
 
         game.Start();
+
     }
 
 }

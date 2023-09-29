@@ -3,12 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace Jalgpall
 {
     using System;
     using System.Drawing;
-
         public class Player
         {
             public string Name { get; }
@@ -78,7 +76,6 @@ namespace Jalgpall
                     _vx = 0;
                     _vy = 0;
                 }
-
                 if (GetDistanceToBall() < BallKickDistance)
                 {
                     // Если игрок находится близко к мячу устанавливаем скорость мяча
